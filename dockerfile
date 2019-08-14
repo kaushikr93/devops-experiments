@@ -10,6 +10,6 @@ ENV home /root
 
 WORKDIR /root
 
-CMD ["/bin/bash"]
+CMD ["/bin/bash" , "/bash"]
 
 EXPOSE 8085
