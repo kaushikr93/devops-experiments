@@ -1,2 +1,2 @@
 # devops-experiments
-for internal and external use only
+for internal and external use
