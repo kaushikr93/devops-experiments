@@ -1,6 +1,6 @@
-#Installing Kubernetes Master 
-
 #!/bin/env bash
+
+#Installing Kubernetes Master
 
 #Declaring the IpAddress and Hostname
 
