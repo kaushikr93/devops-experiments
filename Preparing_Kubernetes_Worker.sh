@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash -eux
 
 #Preparing Kubernetes Worker/Node
 
