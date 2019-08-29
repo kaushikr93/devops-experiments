@@ -5,7 +5,7 @@
 #Declaring the IpAddress and Hostname
 
 MasterIpAddress=$1
-MasterHostname=$2
+#MasterHostname=$2
 
 #Pre-requisites to be configured before kubernets installation
 
