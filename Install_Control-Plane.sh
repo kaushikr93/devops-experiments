@@ -98,3 +98,4 @@ kubectl apply -f https://raw.githubusercontent.com/coreos/flannel/master/Documen
 echo Successfully installed control plane which is Kubernetes Master
 echo Execute this command to verify if the pods are running "kubectl get pods -o wide --all-namespaces"
 echo Execute this command to verify the state of the Master "kubectl get nodes"
+
