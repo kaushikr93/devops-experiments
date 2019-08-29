@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/bin/bash -eux
 
 #Minimum Requirements of CPU and Memory to be available on the machine
 
