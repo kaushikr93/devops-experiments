@@ -1,6 +1,6 @@
-#Preparing Kubernetes Worker/Node 
-
 #!/bin/env bash
+
+#Preparing Kubernetes Worker/Node
 
 #Pre-requisites to be configured before kubernets installation
 
