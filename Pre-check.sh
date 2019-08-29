@@ -27,3 +27,4 @@ else
         echo Either Memory $Memory GB or CPU $CPU cores has to be scaled up to proceed
         exit 1
 fi
+
