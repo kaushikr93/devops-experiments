@@ -1,4 +1,4 @@
-#!/bin/bash -eux
+#!/bin/env bash
 
 #Minimum Requirements of CPU and Memory to be available on the machine
 
@@ -27,4 +27,3 @@ else
         echo Either Memory $Memory GB or CPU $CPU cores has to be scaled up to proceed
         exit 1
 fi
-
