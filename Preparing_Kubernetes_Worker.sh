@@ -1,4 +1,4 @@
-#!/bin/bash -eux
+#!/bin/env bash
 
 #Preparing Kubernetes Worker/Node
 
@@ -72,4 +72,3 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 
 echo Configuring the 10-kubeadm.conf 
 sed '/Environment/ i Environment=”cgroup-driver=systemd/cgroup-driver=cgroupfs”' /usr/lib/systemd/system/kubelet.service.d/10-kubeadm.conf
-
