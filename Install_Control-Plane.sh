@@ -83,6 +83,9 @@ sed '/Environment/ i Environment=”cgroup-driver=systemd/cgroup-driver=cgroupfs
 echo Setting the Kubernetes Master which is Control-Plane
 kubeadm init --apiserver-advertise-address=$MasterIpAddress --pod-network-cidr=10.244.0.0/16
 
+#Waiting for the configuration to complete
+sleep 1m
+
 #Configuring regular user to access kubectl environment
 
 echo Configuring regular user to access kubectl environment
